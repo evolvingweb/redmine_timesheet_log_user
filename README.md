@@ -1,4 +1,6 @@
-timesheet_log_user
-==================
+Redmine Plugin: Timesheet Log User
+==================================
 
-Allow logging time on behalf of other Redmine users
+Allows logging time on behalf of other Redmine users.
+
+For an alternative approach, see [this patch against redmine core](http://www.redmine.org/issues/3848).
