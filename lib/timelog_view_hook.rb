@@ -10,7 +10,7 @@ module TimelogViewHook
     # This saves the user attribute on
     # form submit
     def controller_timelog_edit_before_save(context={})
-      if context[:params][:action] == 'create'
+      if context[:params][:action] == 'create' || context[:params][:action] == 'update'
         # get the user id submitted by the form
         user_id = context[:params][:user][:user_id]
         begin
